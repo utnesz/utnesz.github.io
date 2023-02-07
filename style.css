@@ -17,3 +17,7 @@
   margin: 0;
   padding: 0;
 }
+
+.bi:hover {
+  opacity: 0.5;
+}
