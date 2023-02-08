@@ -4,7 +4,8 @@
 }
 
 .btn {
-  border: none;
+  border: 0.5px solid #ffffff !important;
+  color: #ffffff;
 }
 
 .btn:hover {
@@ -23,4 +24,8 @@
 
 .bi:hover {
   opacity: 0.5 !important;
+}
+
+img {
+  object-fit: fill;
 }
