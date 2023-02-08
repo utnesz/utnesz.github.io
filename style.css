@@ -3,6 +3,10 @@
   border: 1px solid #eae8e8;
 }
 
+.btn {
+  border: none;
+}
+
 .btn:hover {
   box-shadow: 0px 0px 7px 2px #ffffff inset !important;
 }
