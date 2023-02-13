@@ -221,7 +221,7 @@ function saveUser(btn) {
 
         fetch(`https://nettuts.hu/jms/utnes/customers/${id}`, fetchOptions).then(
             resp => resp.json(),
-            err => console.error(err)
+            err => alert.error(err)
         ).then(
             data => startGetUsers(data)
         );
